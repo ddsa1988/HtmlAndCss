@@ -1,50 +1,77 @@
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+    font-family: sans-serif;
+}
+
 h1 {
     font-size: 26px;
-    font-family: sans-serif;
     text-transform: uppercase;
     font-style: italic;
 }
 
 h2 {
     font-size: 40px;
-    font-family: sans-serif;
 }
 
 h3 {
     font-size: 30px;
-    font-family: sans-serif;
 }
 
 h4 {
     font-size: 20px;
-    font-family: sans-serif;
     text-transform: uppercase;
     text-align: center;
 }
 
 p {
     font-size: 22px;
-    font-family: sans-serif;
     line-height: 1.5;
 }
 
 li {
     font-size: 20px;
-    font-family: sans-serif;
 }
 
-footer {
+/* Descendant combinator */
+/* footer p {
     font-size: 14px;
-    font-family: sans-serif;
     text-align: center;
+} */
+
+#copyright {
+    font-size: 14px;
+    text-align: center;
+}
+
+#author {
+    font-style: italic;
+}
+
+.author-img {
+    border: 2px solid gray;
 }
 
 .post-img {
     width: 500px;
     height: 200px;
+    border: 2px solid red;
 }
 
 .related-img {
     width: 100px;
     height: 100px;
+    border: 2px solid goldenrod;
+}
+
+.related-author {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.related-ul {
+    list-style-type: none;
 }
