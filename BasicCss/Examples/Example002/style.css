@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 5px 0 0 5px;
+}
+
+.box {
+    width: 20vw;
+    height: 20vh;
+}
+
+.box-red {
+    border: 5px solid red;
+    display: inline-block;
+}
+
+.box-green {
+    border: 5px solid green;
+    display: inline-block;
+}
+
+.box-blue {
+    border: 5px solid blue;
+    display: inline-block;
+}
