@@ -17,6 +17,7 @@ body {
     padding: 0 5px;
     width: 50%;
     margin: 50px auto;
+    position: relative;
 }
 
 .product-title {
@@ -53,6 +54,8 @@ body {
 
 .more-info:link {
     color: black;
+    display: inline-block;
+    margin-bottom: 10px;
 }
 
 .more-info:visited {
@@ -105,4 +108,51 @@ body {
     text-align: center;
     font-size: 14px;
     margin-bottom: 5px;
+}
+
+.sale {
+    background-color: #c80000;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid #777777;
+    padding: 5px 10px;
+    display: inline-block;
+    position: absolute;
+    left: -35px;
+    top: -15px;
+    letter-spacing: 2px;
+}
+
+.box {
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.box-black {
+    background-color: black;
+}
+
+.box-blue {
+    background-color: blue;
+}
+
+.box-red {
+    background-color: red;
+}
+
+.box-yellow {
+    background-color: yellow;
+}
+
+.box-green {
+    background-color: green;
+}
+
+.box-brown {
+    background-color: brown;
 }
