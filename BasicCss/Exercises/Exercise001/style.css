@@ -3,46 +3,65 @@
     padding: 0;
 }
 
-.main-container {
-    width: 50vw;
-    margin-left: auto;
-    margin-right: auto;
-    border: 3px solid black;
-    padding: 5px;
+.container {
+    width: 95vw;
+    font-family: sans-serif;
+    margin: 50px 0;
 }
 
-.main-header {
+.product {
+    width: 50%;
+    border: 5px solid black;
+    padding: 5px;
+    position: relative;
+    margin: auto;
+}
+
+.header {
     text-align: center;
     text-transform: uppercase;
     background-color: rgb(240, 240, 240);
     padding: 10px 0;
 }
 
-.main-img {
-    width: 20vw;
-    margin-top: 5px;
+.product-img {
+    width: 15vw;
+    margin-top: 10px;
 }
 
 .price {
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .shipping {
     font-size: 12px;
     text-transform: uppercase;
-    color: rgb(150, 150, 150);
-    margin-top: 5px;
+    color: rgb(100, 100, 100);
+    font-weight: bold;
+    margin-top: 10px;
 }
 
-.main-text {
-    margin-top: 5px;
+.description {
+    margin-top: 10px;
 }
 
-.main-link {
+.more-info:link {
     display: inline-block;
-    margin-top: 5px;
+    margin-top: 10px;
+}
+
+.more-info:visited {
+    color: black;
+}
+
+.more-info:active {
+    text-decoration: none;
+}
+
+.more-info:hover {
+    text-decoration: none;
 }
 
 .box {
@@ -80,7 +99,7 @@
 .product-details {
     text-transform: uppercase;
     font-weight: bold;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .details-list {
@@ -89,14 +108,39 @@
     line-height: 25px;
 }
 
-.add-button {
+.add-cart {
     color: white;
     background-color: black;
+    border: 1px solid black;
     text-transform: uppercase;
+    font-size: 20px;
     font-weight: bold;
-    border: 0;
-    margin-top: 5px;
+    margin-top: 10px;
     padding: 10px;
     display: block;
     width: 100%;
+}
+
+.add-cart:hover {
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+
+.sale {
+    color: white;
+    background-color: rgb(205, 0, 0);
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    display: inline;
+    padding: 5px 10px;
+    position: absolute;
+    top: -15px;
+    left: -30px;
+}
+
+.footer {
+    margin-top: 10px;
+    text-align: center;
 }
