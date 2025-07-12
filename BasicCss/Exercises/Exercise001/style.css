@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    padding: 5px;
+}
+
+.main-header {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(240, 240, 240);
+    padding: 10px 0;
+}
+
+.main-img {
+    width: 20vw;
+    margin-top: 5px;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.shipping {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: rgb(150, 150, 150);
+    margin-top: 5px;
+}
+
+.main-text {
+    margin-top: 5px;
+}
+
+.main-link {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.box {
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.box-black {
+    background-color: black;
+}
+
+.box-blue {
+    background-color: blue;
+}
+
+.box-red {
+    background-color: red;
+}
+
+.box-yellow {
+    background-color: yellow;
+}
+
+.box-green {
+    background-color: green;
+}
+
+.box-brown {
+    background-color: brown;
+}
+
+.product-details {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.details-list {
+    margin: 5px 0 0 20px;
+    list-style: square;
+    line-height: 25px;
+}
+
+.add-button {
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 0;
+    margin-top: 5px;
+    padding: 10px;
+    display: block;
+    width: 100%;
+}
