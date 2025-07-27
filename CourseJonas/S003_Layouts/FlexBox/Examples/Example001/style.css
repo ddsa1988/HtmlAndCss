@@ -1,11 +1,13 @@
 .container {
     font-family: sans-serif;
     background-color: rgb(220, 220, 220);
+    border: 1px solid black;
     font-size: 40px;
     margin: 40px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    gap: 5px;
 }
 
 .el-1 {
