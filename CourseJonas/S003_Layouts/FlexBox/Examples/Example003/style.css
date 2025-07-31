@@ -22,13 +22,27 @@ body {
     margin-bottom: 20px;
     text-align: center;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 .main-content {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
+}
+
+.container-author {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.container-related {
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
 .left {
@@ -106,6 +120,7 @@ li {
 
 #author {
     font-style: italic;
+    margin: 0;
 }
 
 .author-img {
@@ -127,6 +142,7 @@ li {
 .related-author {
     font-size: 18px;
     font-weight: bold;
+    margin: 0;
 }
 
 .related-ul {
@@ -155,6 +171,11 @@ li:nth-child(even) {
     color: #ff0000;
 }
 */
+
+.related-link:link {
+    display: block;
+    margin-bottom: 5px;
+}
 
 a:link {
     color: #1098ad;
