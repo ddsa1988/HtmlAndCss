@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+
+.product {
+    width: 80vw;
+    border: 5px solid black;
+    margin: 1em;
+    padding: 1em;
+    position: relative;
+}
+
+.product-title {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.product-img {
+    width: 15vw;
+}
+
+.price {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.shipping {
+    font-size: 1.2em;
+    color: #777;
+}
+
+.sale {
+    background-color: red;
+    color: white;
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    position: absolute;
+    top: -25px;
+    left: -50px;
+}
+
+.product-description {
+    font-size: 1.2em;
+}
+
+.more-info:link {
+    font-size: 1.2em;
+}
+
+.box-container {
+    display: flex;
+    gap: 20px;
+}
+
+.box {
+    width: 2em;
+    height: 2em;
+}
+
+.box-black {
+    background-color: black;
+}
+
+.box-blue {
+    background-color: blue;
+}
+
+.box-red {
+    background-color: red;
+}
+
+.box-yellow {
+    background-color: yellow;
+}
+
+.box-green {
+    background-color: green;
+}
+
+.box-brown {
+    background-color: brown;
+}
+
+.details-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.details-list {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin-left: 1em;
+    list-style-type: square;
+}
+
+.add-cart {
+    background-color: black;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px 0px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.footer {
+    font-size: 1.2em;
+    text-align: center;
+}
