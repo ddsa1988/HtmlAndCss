@@ -1,4 +1,4 @@
-.container-1 {
+.container {
     font-family: sans-serif;
     background-color: #ddd;
     font-size: 40px;
@@ -10,16 +10,6 @@
     grid-template-rows: repeat(3, 1fr);
     column-gap: 10px;
     row-gap: 10px;
-}
-
-.container-2 {
-    font-family: sans-serif;
-    background-color: black;
-    font-size: 40px;
-    margin: 100px;
-    width: 1000px;
-    height: 600px;
-    display: none;
 }
 
 .el-1 {
