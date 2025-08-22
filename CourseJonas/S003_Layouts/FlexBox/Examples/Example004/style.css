@@ -6,10 +6,14 @@
 .container {
     width: 95vw;
     height: 95vh;
+}
+
+.container-box-1 {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
+}
+
+.container-box-2 {
+    display: flex;
 }
 
 .box {
