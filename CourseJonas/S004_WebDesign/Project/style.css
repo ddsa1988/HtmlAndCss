@@ -47,6 +47,10 @@ h2 {
     column-gap: 80px;
 }
 
+.btn {
+    border-radius: 100px;
+}
+
 .btn:link,
 .btn:visited {
     background-color: #087f5b;
