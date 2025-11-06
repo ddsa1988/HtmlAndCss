@@ -27,7 +27,9 @@ Whitespaces
 
 :root {
     --primary-color: #e67e22;
+    --primary-color-tint: #fdf2e9;
     --base-gray-color: #555;
+    --heading-color: #333;
 }
 
 * {
@@ -52,11 +54,56 @@ body {
     color: var(--base-gray-color);
 }
 
+.section-hero {
+    background-color: var(--primary-color-tint);
+    padding: 9.6rem 0;
+}
+
 .hero {
     max-width: 130rem;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 9.6rem;
+    align-items: center;
+}
+
+.heading-primary {
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 1.05;
+    color: var(--heading-color);
+    letter-spacing: -0.5px;
+    margin-bottom: 3.2rem;
+}
+
+.hero-description {
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-bottom: 4.8rem;
+}
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    background-color: var(--primary-color);
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+    padding: 1.6rem 3.2rem;
+    border-radius: 10px;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.btn-outline:link,
+.btn-outline:visited {
+    background-color: #fff;
+    color: var(--base-gray-color);
 }
 
 .hero-img {
